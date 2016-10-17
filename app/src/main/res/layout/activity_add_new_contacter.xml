@@ -9,5 +9,47 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.veiber.testmobilegrinyak.AddNewContacter">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addNewContractor"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:id="@+id/textAddCatalog" />
+    <!--android:fontFamily="Roboto"-->
+    <EditText
+        android:id="@+id/textEnterContractor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enterNameOfContractor"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_below="@+id/textAddCatalog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"/>
 
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textEnterContractor"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/add_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/add"
+            android:onClick="addNewItemTableContractors"/>
+        <Button
+            android:id="@+id/cancel_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:onClick="cancel_action"/>
+    </LinearLayout>
 </RelativeLayout>

@@ -3,6 +3,7 @@
     <string name="addNewCatalogItem">Добавить товары</string>
     <string name="addNewContractor">Добавить контрагента</string>
     <string name="enterNameOfCatalogItem">Введите наименование товара</string>
+    <string name="enterNameOfContractor">Введите имя контрагента</string>
     <string name="enterCodeOfItem">Введите код товара</string>
     <string name="add">Добавить</string>
     <string name="cancel">Назад</string>
