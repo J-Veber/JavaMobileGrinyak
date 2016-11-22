@@ -5,11 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import static com.example.veiber.testmobilegrinyak.R.id.textEnterCatalogItemName;
 
 public class AddNewItemCatalog extends AppCompatActivity {
 
+    final String LOG_TAG = "myLogs";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,10 +26,13 @@ public class AddNewItemCatalog extends AppCompatActivity {
         TextView nameCatalog = (TextView)findViewById(R.id.textEnterCatalogItemName);
         TextView nameCode = (TextView)findViewById(R.id.textEnterCatalogItemCode);
 
+
         if (nameCatalog.getText() != null && nameCode.getText() != null) {
-//            здесь нужно всатвлять данные из поля в БД + поиск идентификатора + возможные ошибки
-        } else {
-//            здесь нужно подчеркнуть окошки ввода красным и написать красным введите то-то..
-        }
+            // поиск по коду товара
+            // если все ОК, добавляем товар
+            Toast.makeText(this, "Товар добавлен", Toast.LENGTH_LONG).show();
+        } else if (nameCatalog.getText() == null) {
+            Toast.makeText(this, "Введите наименование товара", Toast.LENGTH_LONG).show();
+        } else Toast.makeText(this, "Введите код товара", Toast.LENGTH_LONG).show();
     }
 }

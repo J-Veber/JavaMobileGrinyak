@@ -16,7 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".AddNewItemCatalog" />
-        <activity android:name=".AddNewContacter"></activity>
+        <activity android:name=".AddNewContactor" />
+        <activity android:name=".ListAllContractors" />
+        <activity android:name=".AddDocument"></activity>
     </application>
 
 </manifest>
