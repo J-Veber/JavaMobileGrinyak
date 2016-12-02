@@ -18,7 +18,8 @@
         <activity android:name=".AddNewItemCatalog" />
         <activity android:name=".AddNewContactor" />
         <activity android:name=".ListAllContractors" />
-        <activity android:name=".AddDocument"></activity>
+        <activity android:name=".AddDocument" />
+        <activity android:name=".ChooseItems"></activity>
     </application>
 
 </manifest>

@@ -1,16 +1,27 @@
 <resources>
+    <string name="app_name">Бух Учет</string>
+
+
+    <string name="addNewContractor">Добавить контрагента</string>
+    <string name="enterNameOfContractor">Введите имя контрагента</string>
     <string name="contractors">Контрагенты</string>
     <string name="contractor">Контрагент:</string>
     <string name="chooseContractor">Выберите одного из списка</string>
-    <string name="app_name">Бух Учет</string>
-    <string name="addNewCatalogItem">Добавить товары</string>
-    <string name="addNewContractor">Добавить контрагента</string>
-    <string name="enterNameOfCatalogItem">Введите наименование товара</string>
-    <string name="enterNameOfContractor">Введите имя контрагента</string>
-    <string name="enterCodeOfItem">Введите код товара</string>
-    <string name="add">Добавить</string>
-    <string name="cancel">Назад</string>
     <string name="title_activity_list_of_contractors">Контракторы</string>
+
+
+    <string name="addItem">Добавить товар</string>
+    <string name="addNewCatalogItem">Добавить товары</string>
+    <string name="enterNameOfCatalogItem">Введите наименование товара</string>
+    <string name="enterCodeOfItem">Введите код товара</string>
+
+
+    <string name="addDoc">Добавить документ</string>
     <string name="addNewDocument">Добавить документ</string>
     <string name="numberOfDocument">Документ №: </string>
+
+
+    <string name="add">Добавить</string>
+    <string name="cancel">Назад</string>
+    <string name="delete">Удалить</string>
 </resources>
