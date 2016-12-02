@@ -10,7 +10,6 @@ import android.widget.Toast;
 import static com.example.veiber.testmobilegrinyak.R.id.textEnterCatalogItemName;
 
 public class AddNewItemCatalog extends AppCompatActivity {
-
     final String LOG_TAG = "myLogs";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
