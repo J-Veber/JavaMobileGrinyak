@@ -8,17 +8,17 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddNewItemCatalog" />
-        <activity android:name=".AddNewContactor" />
-        <activity android:name=".ListAllContractors" />
-        <activity android:name=".AddDocument" />
+        <activity android:name=".Activity.AddNewItemCatalogActivity" />
+        <activity android:name=".Activity.AddNewContactorActivity" />
+        <activity android:name=".Activity.ListAllContractorsActivity" />
+        <activity android:name=".Activity.AddDocumentActivity" />
         <activity android:name=".ChooseItems"></activity>
     </application>
 

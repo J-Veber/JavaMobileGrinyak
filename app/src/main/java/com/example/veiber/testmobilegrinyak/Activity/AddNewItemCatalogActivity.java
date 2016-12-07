@@ -1,4 +1,4 @@
-package com.example.veiber.testmobilegrinyak;
+package com.example.veiber.testmobilegrinyak.Activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,8 +9,8 @@ import android.widget.Toast;
 
 import static com.example.veiber.testmobilegrinyak.R.id.textEnterCatalogItemName;
 
-public class AddNewItemCatalog extends AppCompatActivity {
-    final String LOG_TAG = "myLogs";
+public class AddNewItemCatalogActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

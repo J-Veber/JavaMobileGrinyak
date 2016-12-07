@@ -1,7 +1,6 @@
-package com.example.veiber.testmobilegrinyak;
+package com.example.veiber.testmobilegrinyak.Activity;
 
 import android.content.Intent;
-import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -9,9 +8,10 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class ListAllContractors extends AppCompatActivity {
+import com.example.veiber.testmobilegrinyak.Utils.Constants;
 
-    final String LOG_TAG = "myLogs";
+public class ListAllContractorsActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,8 +26,8 @@ public class ListAllContractors extends AppCompatActivity {
     }
 
     public void gotoAddNewContractor(View view) {
-        Log.d(LOG_TAG, "--- CREATE NEW DOCUMENT: ---");
-        Intent intent = new Intent(this,AddNewContactor.class);
+        Log.d(Constants.DebugTag, "--- CREATE NEW DOCUMENT: ---");
+        Intent intent = new Intent(this,AddNewContactorActivity.class);
         startActivity(intent);
     }
 }

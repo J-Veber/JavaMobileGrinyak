@@ -1,4 +1,4 @@
-package com.example.veiber.testmobilegrinyak;
+package com.example.veiber.testmobilegrinyak.Activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,10 +7,11 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.veiber.testmobilegrinyak.Utils.Constants;
 
-public class AddNewContactor extends AppCompatActivity {
 
-    final String LOG_TAG = "myLogs";
+public class AddNewContactorActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +27,7 @@ public class AddNewContactor extends AppCompatActivity {
         //---- add contractor --
         //Log.d(LOG_TAG, "по this.name ищем контрагента с таблице КОНТРАГЕНТЫ");
         //----- if contractor.name exists -----
-        Log.d(LOG_TAG, "Контрагент добавлен");
+        Log.d(Constants.DebugTag, "Контрагент добавлен");
         Toast.makeText(this, "Контрагент с таким именем уже существует", Toast.LENGTH_LONG).show();
         // ----- ELSE -----
         //...
